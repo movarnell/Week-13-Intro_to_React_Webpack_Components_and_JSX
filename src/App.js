@@ -11,13 +11,14 @@ function App() {
   <Header/>
   <Navbar/>
 {/* navbar end */}
-   <div className="container-fluid text-center bg-dark text-light">
+   <div className="backgroundLower">
   
-  </div>
+  
   <div className='row loginDiv'>
 
   <LoginForm/>
 
+   </div>
    </div>
    </>
   );
