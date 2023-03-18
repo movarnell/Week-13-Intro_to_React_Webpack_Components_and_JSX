@@ -81,3 +81,27 @@ justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bolder;
 }
+
+body {
+  
+  background-image: radial-gradient(circle, white, orange);
+
+}
+
+.mainTitle {
+  text-align: center;
+  font-family: fantasy;
+  
+}
+
+.navCustom {
+  font-size: larger;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+
+
+.rotateLeft{
+transform: rotate(-30deg);
+}
