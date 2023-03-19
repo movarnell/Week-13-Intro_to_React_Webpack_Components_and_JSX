@@ -45,6 +45,8 @@ height: 80vh;
 }
 
 .loginBox{
+
+background-color: white;
 border: 1px;
 border-style: solid;
 border-radius:40px;
@@ -78,20 +80,23 @@ justify-content: center;
 }
 
 .titleLogin {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
 }
 
-body {
-  
-  background-image: radial-gradient(circle, white, orange);
+.backgroundLower {
+  background-size: cover;
+  background-position: center;
+  background-image: url('./background.jpg');
 
 }
 
 .mainTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  font-family: fantasy;
-  
+  font-weight: bolder;
+  /* font-family: 'Century Gothic', Verdana, 'Calibri'; */
+  margin: 0;
 }
 
 .navCustom {

@@ -4,7 +4,7 @@ import pawPrint from '../src/64431.png';
 
 export default function Navbar () {
 return (
-    <nav className="navbar navbar-expand-lg navCustom">
+    <nav className="navbar navbar-expand-lg navCustom bg-white border-bottom border-3 border-dark">
     <div className="container-fluid">
      
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
